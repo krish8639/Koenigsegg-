@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Inter:wght@700&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Inter:wght@700&family=Raleway:wght@600&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Inter:wght@700&family=Oswald:wght@500&family=Raleway:wght@600&family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    min-height: 100vh;
+    background: rgb(104, 124, 123);
+    padding-left: 15vh;
+}
+
+nav {
+    min-height: 9rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10vh;
+    padding-left: 1rem;
+}
+
+header nav .home{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 175%;
+    font-weight: 900;
+}
+
+header nav .navoptions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 6rem;
+    list-style: none;
+    padding-right: 10vh;
+}
+
+header nav .navoptions li a
+{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    border-bottom: solid white 2px;
+    border-width: 0;
+}
+
+header nav .navoptions .three .togglebutton{
+    padding: 2rem;
+    margin-left: 95%;
+    clip-path: polygon(88.24% 50.00%, 70.59% 84.48%, 26.47% 84.48%, 5.88% 51.47%, 26.47% 16.99%, 70.59% 16.99%);
+    background: none;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.below-header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 5rem;
+    padding-right: 5rem;
+}
+
+.left{
+    padding-left: 1rem;
+}
+
+.left h2{
+    max-width: auto;
+    min-height: auto;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;   
+    font-size: 400%;
+    font-weight:bolder;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.right{
+    padding-left: 6rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15rem;
+}
+
+.right .right-top{
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    color: aliceblue;
+}
+
+.right .right-bottom{
+    font-weight: bolder;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    color: aliceblue; 
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.about-one {
+    max-height: 140vh;
+    background-image: linear-gradient(0deg,rgba(0,0,0,.7),transparent),url(https://mainwebstorage.blob.core.windows.net/mediacontainers/styles/1920x1000/azure/2022-02/TED_2260%20bw.jpg?h=eb115677&itok=Y8Fbfbce);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.one-full {
+    padding: 10rem;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 7rem;
+}
+
+.one-top {
+    max-width: auto;
+    min-height: auto;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-size: 250%;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    line-height: 3.5rem;
+    color: aliceblue;
+    padding-top: 5rem;
+}
+
+.one-top .two {
+    margin-left: 6.5rem;
+}
+
+.one-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.one-middle .play {
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+}
+
+.one-middle .play i {
+    padding-left: 12rem;
+}
+
+.one-middle .play a {
+    color: aliceblue;
+    margin-left: 5rem;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.one-bottom {
+    display: flex;
+    margin-left: 37.5rem;
+    margin-right: 10rem;
+}
+
+.one-bottom p {
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.about-two {
+    max-height: 100vh;
+    padding: 7rem;
+    padding-left: 10rem;
+}
+
+.small-line {
+    background-color: grey;
+    height: 0.5px;
+    width: 25rem;
+    border-right-style: solid;
+    border-right-color: aliceblue;
+    border-left-style: solid;
+    border-left-width: 0rem;
+    border-left-color: aliceblue;
+}
+
+.two-full {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+}
+
+.two-main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.two-left {
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    font-size: 150%;
+    line-height: 5vh;
+    font-weight: 200;
+}
+
+.two-right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+p {
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.box-btn {
+    width: 15vw;
+    height: 10vh;
+    clip-path: polygon(94.42% 100%, 100% 82.15%, 100% 16.42%, 94.42% 0%, 6.15% 0%, 0% 16.42%, 0% 82.15%, 6.15% 100%);
+    background-color: white;
+    margin-left: 18vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border-width: 0vh;
+    cursor: pointer;
+    color: black
+}
+
+.about-three {
+    max-height: 130vh;
+    padding: 7rem;
+    padding-left: 10rem;
+    padding-top: 0%;
+}
+
+.three-full {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+}
+
+.three-full .small-line {
+    background-color: grey;
+    height: 1.5px;
+    width: 25rem;
+    border-right-style: solid;
+    border-right-color: aliceblue;
+    border-left-style: solid;
+    border-left-width: 1rem;
+    border-left-color: aliceblue;
+}
+
+.three-main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 5rem;
+}
+ 
+.three-left
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+}
+
+.three-left .left-top{
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    font-size: 250%;
+    line-height: 5vh;
+    font-weight: 200;
+    line-height: 3rem;
+}
+
+.three-left .left-middle{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin-right:8rem;
+}
+
+.three-right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12rem;
+}
+
+.three-right .right-top{
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.about-four{
+    padding: 10rem;
+    padding-top: 15rem;
+    max-height: 200vh;
+}
+
+.four-full{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+}
+
+.four-top{
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 5rem;
+}
+
+.four-bottom{
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    font-size: 400%;
+    font-weight: 200;
+    line-height: 5rem;
+}
+
+.four-bottom .two{
+    margin-left: 10rem;
+}
+
+.four-bottom .three{
+    margin-left: 4rem;
+}
+
+.three-right-2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10rem;
+}
+
+.about-five{
+    max-height: 120vh;
+    padding: 7rem;
+    padding-left: 10rem;
+}
+
+.five-full{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.five-full .small-line {
+    background-color: grey;
+    height: 1.5px;
+    width: 25rem;
+    border-right-style: solid;
+    border-right-color: aliceblue;
+    border-left-style: solid;
+    border-left-width: 38rem;
+    border-left-color: aliceblue;
+}
+
+.five-main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 5rem;
+    padding-top: 5rem;
+}
+
+.five-left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 9rem;
+}
+
+.five-left .left-top{
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    padding-right: 4rem;
+}
+
+
+.five-left .left-bottom{
+    overflow: hidden;
+    max-height: 40rem;
+    padding-right: 4rem;
+}
+
+.five-left .left-bottom img{
+    width: 100%;
+}
+
+.five-right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    padding-right: 5rem;
+}
+
+.five-right .right-top{
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    font-size: 250%;
+    line-height: 5vh;
+    font-weight: 200;
+    line-height: 3rem;
+}
+
+.five-right .right-bottom{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.about-six{
+    max-height: 100vh;
+    padding : 10rem;
+    padding-right: 5rem;
+}
+
+.six-full{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.six-top{
+    display: flex;
+    justify-content: end;
+    padding-right: 14rem;
+    padding-bottom: 3rem;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    font-size: 200%;
+    line-height: 5vh;
+    font-weight: 200;
+    line-height: 3rem;
+}
+
+.six-bottom{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 2rem;
+    padding-left: 7rem;
+}
+
+.six-bottom .six-left{
+    height: 30rem;
+    background-image:  linear-gradient(transparent 40.3%,#000),url(https://mainwebstorage.blob.core.windows.net/mediacontainers/styles/514x550/azure/2022-04/KenoZache_IMG_9144.jpg?h=bb3a9e88&itok=v5Oplcd9);
+    background-size: cover;
+}
+
+.six-bottom .six-right{
+    display: flex;
+    flex-direction: column;
+    max-height: 30rem;
+    overflow: hidden;
+    background-size: cover;
+    background-image: linear-gradient(transparent 40.3%,#000),url(https://mainwebstorage.blob.core.windows.net/mediacontainers/styles/514x550/azure/2022-04/KenoZache_IMG_3152.jpg?h=9855f42d&itok=k-o1jM4n);
+}
+
+.six-bottom .six-left a{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: start;
+    padding: 2rem;
+    padding-top: 20rem;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    font-size: 150%;
+    font-weight: 200;
+}
+
+.mini-line{
+    background-color:aliceblue;
+    height: 1px;
+    width: 15rem;
+    margin-left: 2rem;
+}
+
+.six-bottom .six-right a{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: start;
+    padding: 2rem;
+    padding-top: 20rem;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    font-size: 150%;
+    font-weight: 200;
+}

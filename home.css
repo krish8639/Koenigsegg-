@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Inter:wght@700&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Inter:wght@700&family=Raleway:wght@600&family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    min-height: 100vh;
+}
+
+.header {
+    min-height: 100vh;
+    background-image:url(https://mainwebstorage.blob.core.windows.net/mediacontainers/styles/1920x1400/azure/2023-07/94c29aca8e7e6b5d_org_2.png?h=2963adc1&itok=pJ1kpQsd);
+    background-size:cover;
+    background-attachment:local;
+    padding-top: 0%;
+    padding-left: 15vh;
+    background-position-y: -7rem;
+}
+
+.header::after
+{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: max(25rem,50%);
+  background: linear-gradient(transparent 20.3%,#000);
+}
+
+nav {
+    min-height: 9rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10vh;
+    padding-left: 1rem;
+}
+
+header nav .home{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 175%;
+    font-weight: 900;
+}
+
+header nav .navoptions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 6rem;
+    list-style: none;
+    padding-right: 10vh;
+}
+
+header nav .navoptions li a
+{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    border-bottom: solid white 2px;
+    border-width: 0;
+}
+
+header nav .navoptions .three .togglebutton{
+    padding: 2rem;
+    margin-left: 95%;
+    clip-path: polygon(88.24% 50.00%, 70.59% 84.48%, 26.47% 84.48%, 5.88% 51.47%, 26.47% 16.99%, 70.59% 16.99%);
+    background: none;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+header nav .navoptions .three .togglebutton .one{
+    max-height: 2px;
+    max-width: 1rem;
+    background-color:black;
+}
+
+header .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logosidebtn
+{
+    margin-right: 8rem;
+    margin-top: 8rem;
+
+}
+
+.logosidebtn a
+{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.logosidebtn i
+{
+    color: aliceblue;
+    padding-left: 1rem;
+}
+
+header img
+{
+    margin-top: 10rem;
+    max-width: 30rem;
+    max-height: 7rem;
+}
+
+.techno
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 0%;
+    padding-left: 25vh;
+    padding-right: 15vh;
+    padding-bottom: 50vh;
+    background-color: black;
+    color: white;
+}
+
+.techno .top
+{
+    display: flex;
+    padding-left: 0%;
+    column-gap: 30vh;
+    padding-bottom: 20vh;
+    height: 35vh;
+    background-color: black;
+    color: white;
+}
+
+.techno .top .heading
+{
+    font-weight: bolder;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 3vh;
+    padding-bottom: 0%;
+    background-color: black;
+    color: white;
+}
+
+.techno .top .subheading
+{
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight:bolder;
+    display: flex;
+    flex-direction: column;
+    font-size: 375%;
+    line-height: 11vh;
+    padding-bottom: 0%;
+    background-color: black;
+    color: white;
+}
+
+.techno .top .subheading .t-two
+{
+    margin-left: 15vh;
+}
+
+.techno .b
+{
+    display: grid;
+    grid-template-columns: auto 110vh;
+    background-color: black;
+    color: white;
+}
+
+.techno .b .matter
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.techno .b .matter .para
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.techno .b .matter .discover
+{
+    width:15vw;
+    height: 15vh;
+    clip-path: polygon(94.42% 100%, 100% 82.15%, 100% 16.42%, 94.42% 0%, 6.15% 0%, 0% 16.42%, 0% 82.15%, 6.15% 100%);
+    background-color: black;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 2vh;
+    color:white;
+    border-width: 0vh;
+    cursor: pointer;
+}
+
+.techno .b .matter .discover i
+{
+    padding-left: 1rem;
+}
+
+.techno .b .image
+{
+    overflow: hidden;
+    padding-left: 5vh;
+    background-color: black;
+}
+
+.techno .b .image img
+{
+    max-width: 100%;
+}
+
+.about
+{
+    display: grid;
+    grid-template-columns: 60vh auto;
+    grid-column-gap: 2vh;
+    height: 100vh;
+    padding-top: 0%;
+    padding-left: 25vh;
+    padding-right: 25vh;
+    padding-bottom: 20vh;
+    margin-top: 20vh;
+}
+
+.about .image
+{
+    margin-top: 2vh;
+    overflow: hidden;
+    margin-bottom: 9vh;
+    resize: both;
+}
+
+.about .image img
+{
+    max-width: 100%;
+}
+
+.about .matter
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.about .matter .heading
+{
+    font-weight: bolder;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-left: auto;
+}
+
+.about .matter .subheading
+{
+    padding-top: 20vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 250%;
+    line-height: 9vh;
+}
+
+.about .matter .subheading .two
+{
+    margin-left: 18vh;
+}
+
+.about .matter .para
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 0%;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-left: 35vh;
+}
+
+.about .matter .discover
+{
+    width:15vw;
+    height: 15vh;
+    clip-path: polygon(94.42% 100%, 100% 82.15%, 100% 16.42%, 94.42% 0%, 6.15% 0%, 0% 16.42%, 0% 82.15%, 6.15% 100%);
+    background-color: white;
+    margin-left: 36vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border-width: 0vh;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.about .matter .discover i
+{
+    padding-left: 1rem;
+}
+
+.history
+{
+    display: grid;
+    grid-template-columns: auto 65vh;
+    grid-column-gap: 5vh;
+    height: 100vh;
+    margin-top: 15vh;
+    padding-top: 0%;
+    padding-left: 25vh;
+    padding-right: 25vh;
+    padding-bottom: 20vh;
+}
+
+.history .matter
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.history .matter .heading
+{
+    font-weight: bolder;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;    
+}
+
+.history .matter .subheading
+{
+    padding-top: 20vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight:bolder;
+    display: flex;
+    flex-direction: column;
+    font-size: 250%;
+    line-height: 9vh;
+}
+
+.history .matter .subheading .two
+{
+    margin-left: 18vh;
+}
+
+.history .matter .para
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 18vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.history .matter .discover
+{
+    width:15vw;
+    height: 10vh;
+    clip-path: polygon(94.42% 100%, 100% 82.15%, 100% 16.42%, 94.42% 0%, 6.15% 0%, 0% 16.42%, 0% 82.15%, 6.15% 100%);
+    background-color:white; 
+    margin-left: 18vh;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border-width: 0vh;
+    cursor: pointer;
+}
+
+.history .matter .discover i
+{
+    padding-left: 2rem;
+}
+
+.history .image
+{
+    margin-top: 2vh;
+    overflow: hidden;
+    margin-bottom: 9vh;
+}
+
+.history .image img
+{
+    max-width: 100%;
+}
